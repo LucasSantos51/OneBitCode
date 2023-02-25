@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <title>Cadastro da liga dos astronautas</title>
+</head>
+<body>
+  <h3>Cadastro da liga dos astronautas</h3>
+  <form action="" method="post">
+    <div>
+      <label for="inome">Nome: </label>
+      <input type="text" name="nome" id="inome" required maxlength="50" minlength="4">
+    </div>
+    <br>
+    <div>
+      <label for="iemail">Email: </label>
+      <input type="email" name="email" id="iemail" required>
+    
+      <label for="ipassword">Password: </label>
+      <input type="password" name="password" id="ipassword" required>
+    </div>
+    <br>
+    <div>
+      <label for="iidade">Data de nascimento: </label>
+      <input type="date" name="idade" id="iidade" required>
+      
+      <label for="ifile">Foto: </label>
+      <input type="file" name="file" id="ifile" value="Escolher arquivos"> 
+    </div>
+    <br>
+    <div>
+      <label for="inacionalidade">Nacionalidade</label>
+      <select name="Nacionalidade" id="inacionalidade">
+        <option value="Russo">Russo</option>
+        <option value="Americano">Americano</option>
+        <option value="Brasileiro">Brasileiro</option>
+      </select>
+      <label for="igenero"> - Genero: </label>
+      <label for="imasculino">M</label>
+      <input type="radio" name="sexo" id="imasculino">
+      <label for="ifeminino">F</label>
+      <input type="radio" name="sexo" id="ifeminino">
+    </div>
+    <br>
+    <div>
+      Suas principais qualidades: <br>
+      <label for="q1">Inteligência</label>
+      <input type="checkbox" name="q" id="q1">
+      <label for="q2">| Resiliêecia</label>
+      <input type="checkbox" name="q" id="q2">
+      <label for="q3">| Preparo fisico</label>
+      <input type="checkbox" name="q" id="q3">
+      <label for="q4">| Educação </label>
+      <input type="checkbox" name="q" id="q4"> |
+    </div>
+    <br>
+    <div>
+      <textarea name="vc" id="ivc" cols="30" rows="10" placeholder="Porque você hostaria de ser um austronauta?" ></textarea>
+    </div>
+    <br>
+    <div>
+      <input type="submit" value="Criar">
+    </div>
+  </form>
+</body>
+</html>
