@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+body{
+  margin:0px 100px;
+  
+}
+div{
+  background-color: #fffafa;
+  padding: 10px;
+  margin: 30px;
+}
+
+div.artigos > h3 {
+  color: #008080;
+  font-family: 'Roboto';
+  
+}
+
+h1{
+  font-family: 'Montserrat';
+}
+
+p{
+  font-family: 'Open Sans';
+}
+/*1. Background dos posts = #fffafa
+2. Cor da data = #008080*/
