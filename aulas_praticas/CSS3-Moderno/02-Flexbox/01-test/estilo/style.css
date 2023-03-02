@@ -8,13 +8,22 @@
   background-color: lightgray;
   min-height: 100vh;
   display: flex;
+  column-gap: 10px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  
+  
 }
 .item{
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 200px;
   height: 150px;
   background-color: white;
   border: 2px solid black;
-  margin:0px 5px 5px 5px;
   font-size: 20px;
+  
+  
 }

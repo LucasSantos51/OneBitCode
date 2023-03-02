@@ -1,0 +1,38 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  padding: 10px 15px;
+  
+}
+
+img#logo-rock{
+  max-width: 100px;
+  max-height: 200px;
+  
+  
+}
+
+img#logo-onebitcode{
+  max-width: 300px;
+  max-height: 200px;
+  
+}
+
+
+button.button-inical{
+  font-size: 20px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  background-color: transparent;
+  border-color: white;
+  color: white;
+  cursor: pointer;
+}
