@@ -1,0 +1,48 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: black;
+  padding: 10px 25px;
+}
+
+
+#icon-rock{
+  width: 40px;
+
+
+}
+
+#icon-onebitcode{
+  width: 200px;
+}
+
+#button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 3px;
+}
+
+.button-start{
+  font-size: 15px;
+  background-color: transparent;
+  color: white;
+  padding:10px 15px;
+  border: 1px solid white;
+  border-radius: 10px;
+  cursor: pointer;
+  transition-duration: 0.7s;
+}
+
+.button-start:hover{
+  border-color: #ff0044;
+  
+}
