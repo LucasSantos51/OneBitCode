@@ -1,0 +1,11 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.item{
+  background-color: white;
+  font-size: 30px;
+  border: 2px solid black;
+
+}
