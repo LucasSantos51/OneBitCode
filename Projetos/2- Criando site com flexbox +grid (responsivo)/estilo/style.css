@@ -22,11 +22,13 @@ nav{
 }
 
 
-.logo{
+nav > img{
   height: 50px;
 }
 
-
+.centralizar{
+  text-align: center;
+}
 
 .button{
   background-color: transparent;
@@ -36,14 +38,41 @@ nav{
   color: white;
 }
 
+.button:hover{
+  /* Colocar os elementos; */
+}
 
 
+.artigo{
+ max-width: 300px;
+}
+
+.artigo img{
+  height: 200px;
+  width: 300px;
+  border-radius: 10px;
+}
+
+.paragrafos{
+  font-size: 20px;  
+
+}
+
+.aside{
+  display: flex;
+  
+  
+  background-color: #666565;
+  color: white;
+  padding-bottom: 5px;
+}
 
 
-
-
-
-
+.aside > img{
+  height: 150px;
+  width: 220px;
+  border-radius: 10px;
+}
 
 footer{
   display: flex;
@@ -52,6 +81,10 @@ footer{
   padding: 9px 10px 9px 10px;
   background-color: #666565;
   height: 100px;
+}
+
+footer > img{
+  height: 50px;
 }
 
 footer > p{
