@@ -5,111 +5,109 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./estilo/style.css">
-  <link rel="shortcut icon" href="./imagens/iconrock-red.svg" type="image/x-icon">
-  <title>Site com flexbox e grid (responsivo)</title>
+  <link rel="shortcut icon" href="imagens/iconrock-red.svg" type="image/x-icon">
+  <title>Site com flexbox + grid (responsivo)</title>
 </head>
 <body>
-  <header>
-    <nav>
-      <img src="imagens/logo-onebitcode.svg" alt="">
+  <header class="start-end">
+    <nav class="elementos-start-end">
+      <img class="logo" src="imagens/logo-onebitcode.svg" alt="">
       <div>
-        <button class="button paragrafos">Login</button>
-        <button class="button paragrafos">Registro</button>
-        <button class="button paragrafos">FAQ</button>
+        <button class="button-inicial">Login</button>
+        <button class="button-inicial">Registro</button>
+        <button class="button-inicial">FAQ</button>
       </div>
     </nav>
-  </header>
+  </header> 
   <main>
-    <section>
-      <h1 class="centralizar">BEM VINDO A BITCODELS</h1>
-      <p class="paragrafos centralizar">
-        Aqui é onde você vai encontrar todos os itens mais novos e modernos do seu esporte preferido.
-      </p>
-      <div class="artigo">
-        <img src="imagens/boxe.jpg" alt="Boxe-imagem">
-        <p class="paragrafos">O boxe é tradicionalmente um tipo de luta que tem como principal característica o combate “homem a homem” utilizando-se apenas dos punhos.</p>
+    <div class="inf-inicial">
+      <h1 id="inicio" >BEM VINDO A BITCODELS</h1>
+      <p>Aqui é onde você vai encontrar todos os itens mais novos e modernos do seu esporte preferido.</p>
+    </div>
+    <div class="container">  
+
+      <div class="produto produto1">
+        <img class="img-produto" src="imagens/boxe.jpg" alt="boxe-imagem">
+        <p class="paragrafos-produto">O boxe é tradicionalmente um tipo de luta que tem como principal característica o combate “homem a homem” utilizando-se apenas dos punhos.</p>
       </div>
-      <div class="artigo">
-        <img src="imagens/crossfit.jpg" alt="Crossfit-imagem">
-        <p class="paragrafos">o Crossfit consiste em uma atividade que abrange força e condicionamento físico por meio da junção de exercícios aeróbicos, calistênicos (onde se usa somente o peso do próprio corpo) e levantamento olímpico.</p>
+
+      <div class="produto produto2">
+        <img class="img-produto" src="imagens/crossfit.jpg" alt="Crossfit-imagem">
+        <p class="paragrafos-produto">O Crossfit consiste em uma atividade que abrange força e condicionamento físico por meio da junção de exercícios aeróbicos, calistênicos (onde se usa somente o peso do próprio corpo) e levantamento olímpico.</p>
       </div>
-      <div class="artigo">
-        <img src="imagens/natacao.jpg" alt="Natação-imagem">
-        <p class="paragrafos">Natação é um exercício, arte ou esporte de nadar. É considerada um dos exercícios mais completos por movimentar grande parte dos músculos e articulações do corpo.</p>
+
+      <div class="produto produto3">
+        <img class="img-produto" src="imagens/natacao.jpg" alt="Natação-imagem">
+        <p class="paragrafos-produto">Natação é um exercício, arte ou esporte de nadar. É considerada um dos exercícios mais completos por movimentar grande parte dos músculos e articulações do corpo.</p>
       </div>
-      <div class="artigo">
-        <img src="imagens/roupas.jpg" alt="Roupas-imagem">
-        <p class="paragrafos"></p>
-      </div>
-      <div class="artigo">
-        <img src="imagens/basquete.jpg" alt="Basquete-imagem">
-        <p class="paragrafos">basquete é um esporte coletivo jogado por duas equipes, que têm o objetivo de fazer pontos ao acertar a bola na cesta do adversário, o alvo fixo na quadra. A prática é caracterizada por ser dinâmica que envolve diferentes capacidades físicas, como a agilidade e a coordenação motora.</p>
-      </div>
-      <div class="artigo">
-        <img src="imagens/corrida.jpg" alt="Corrida-imagem">
-        <p class="paragrafos">Corrida é uma competição de velocidade ou resistência. Os competidores tentam completar uma determinada tarefa no menor período de tempo. Envolve tradicionalmente percorrer alguma distância, mas pode se referir a qualquer tarefa em que o tempo/velocidade se apliquem.
+
+      <div class="produto produto4">
+        <img class="img-produto" src="imagens/roupas.jpg" alt="Roupas-imagem">
+        <p class="paragrafos-produto">
+          Compre Roupas Esportivas Masculinas na OnibitLS ✓ Frete e Troca Grátis ✓ Pague em até 10x Sem Juros ✓ As Melhores Marcas ✓ Entrega Rápida e Segura.
         </p>
       </div>
-      <div class="artigo">
-        <img src="imagens/surf.jpg" alt="Surf-imagem">
-        <p class="paragrafos">O surf é um esporte popular em todo o mundo. Na prática, considerada de aventura por muitos, o atleta desliza em pé na superfície da água com ajuda de uma prancha, aproveitando uma onda que se quebra.</p>
-      </div>
-      <div class="artigo">
-        <img src="imagens/trilha.jpg" alt="Trilha-imagem">
-        <p class="paragrafos">Trata-se de uma atividade física que tem por objetivo explorar trilhas naturais e montanhas, podendo ser realizada em caráter de lazer ou competição por qualquer pessoa saudável que possua o mínimo de preparo físico.</p>
-      </div>
-      <div class="artigo">
-        <img src="imagens/tenis.jpg" alt="Tênis-imagem">
-        <p class="paragrafos">Tênis é um esporte praticado entre dois oponentes ou duas duplas de oponentes em uma quadra dividida por uma rede, onde os jogadores usam raquetes para rebater uma pequena bola de um lado para o outro.</p>
-      </div>
-    </section>
-    <aside>
-      <section>
-        <p class="paragrafos">
-          CATEGOGIAS EXTRAS
-        </p>
-        <div class="aside">
-          <img src="imagens/bicicletas.jpg" alt="Bicicletas-imagem">
-          <p class="paragrafos">
-            bicicletas
-          </p> 
-        </div>
 
-        <div class="aside">
-          <img src="imagens/esportesNaNeve.jpg" alt="Esporte na neve-imagem">
-          <p class="paragrafos">
-            esportes na neve
-          </p>
-        </div>
+      <div class="produto produto5">
+        <img class="img-produto" src="imagens/basquete.jpg" alt="Basquete-imagem">
+        <p class="paragrafos-produto">Basquete é um esporte coletivo jogado por duas equipes, que têm o objetivo de fazer pontos ao acertar a bola na cesta do adversário, o alvo fixo na quadra. A prática é caracterizada por ser dinâmica que envolve diferentes capacidades físicas, como a agilidade e a coordenação motora.</p>
+      </div>
 
-        <div class="aside">
-          <img src="imagens/skate.jpg" alt="skate-imagem">
-          <p class="paragrafos">
-            skate
-          </p>
-        </div>
+      <div class="produto produto6">
+        <img class="img-produto" src="imagens/corrida.jpg" alt="Corrida-imagem">
+        <p class="paragrafos-produto">Corrida é uma competição de velocidade ou resistência. Os competidores tentam completar uma determinada tarefa no menor período de tempo. Envolve tradicionalmente percorrer alguma distância, mas pode se referir a qualquer tarefa em que o tempo/velocidade se apliquem.</p>
+      </div>
 
-        <div class="aside">
-          <img src="imagens/futebolAmericano.jpg" alt="futebol Americano-imagem">
-          <p class="paragrafos">
-            futebol Americano
-          </p>
-        </div>
-        
-        <div class="aside">
-          <img src="imagens/yoga.jpg" alt="yoga-imagem">
-          <p class="paragrafos">
-            Yoga
-          </p>
-        </div>
-      </section>
+      <div class="produto produto7">
+        <img class="img-produto" src="imagens/surf.jpg" alt="Surf-imagem">
+        <p class="paragrafos-produto">O surf é um esporte popular em todo o mundo. Na prática, considerada de aventura por muitos, o atleta desliza em pé na superfície da água com ajuda de uma prancha, aproveitando uma onda que se quebra.</p>
+      </div>
+
+      <div class="produto produto8">
+        <img class="img-produto" src="imagens/trilha.jpg" alt="Trilha-imagem">
+        <p class="paragrafos-produto">Trata-se de uma atividade física que tem por objetivo explorar trilhas naturais e montanhas, podendo ser realizada em caráter de lazer ou competição por qualquer pessoa saudável que possua o mínimo de preparo físico.</p>
+      </div>
+
+      <div class="produto produto9">
+        <img class="img-produto" src="imagens/tenis.jpg" alt="Tênis-imagem">
+        <p class="paragrafos-produto">Tênis é um esporte praticado entre dois oponentes ou duas duplas de oponentes em uma quadra dividida por uma rede, onde os jogadores usam raquetes para rebater uma pequena bola de um lado para o outro.</p>
+      </div>
+    </div>
+    <aside class="aside">
+      
+      <p class="aside-paragrafos">CATEGORIAS EXTRAS</p>
+
+      <div class="aside-conf">
+        <img class="aside-img" src="imagens/bicicletas.jpg" alt="Bicicletas-imagem">
+        <p class="aside-paragrafos">Bicicletas</p>
+      </div>
+
+      <div class="">
+        <img class="aside-img" src="imagens/esportesNaNeve.jpg" alt="Esporte_no_gelo-imagem">
+        <p class="aside-paragrafos"Esporte no gelo</p>
+      </div>
+
+      <div class="aside-conf">
+        <img class="aside-img" src="imagens/skate.jpg" alt="Skate-imagem">
+        <p class="aside-paragrafos">Skate</p>
+      </div>
+
+      <div class="aside-conf">
+        <img class="aside-img" src="imagens/futebolAmericano.jpg" alt="Futebol_Amaricano-imagem">
+        <p class="aside-paragrafos">Futebol Americano</p>
+      </div>
+
+      <div class="aside-conf">
+        <img class="aside-img" src="imagens/yoga.jpg" alt="Yoga-imagem">
+        <p class="aside-paragrafos">Yoga</p>
+      </div>
     </aside>
   </main>
-
   <footer>
-   <img src="imagens/logo-onebitcode.svg" alt=""> 
-    <p class="paragrafos">Voltar ao inicio</p>
+    <img class="logo" src="imagens/logo-onebitcode.svg" alt="logo-onebitcode">
+    <a href="#inicio">Voltar ao inicio</a>
   </footer>
+
 
 </body>
 </html>
