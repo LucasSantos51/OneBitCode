@@ -1,0 +1,16 @@
+$btn-color1: rgb(3, 233, 91);
+$btn-color2: rgb(233, 3, 3);
+$width-btn: 75px;
+
+
+#btn1{
+  background-color: $btn-color1;
+  width: $width-btn;
+  cursor: pointer;
+}
+
+#btn2{
+  background-color: $btn-color2;
+  width: $width-btn;
+  cursor: pointer;
+}
