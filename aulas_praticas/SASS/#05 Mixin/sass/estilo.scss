@@ -1,0 +1,19 @@
+@mixin section-style ($background-color, $color, $font-size, $width, $heigth){
+  background-color:$background-color;
+  color:$color;
+  font-size: $font-size;
+  width: $width;
+  height: $heigth;
+}
+
+section{
+#box1{
+  @include section-style(blue, white, 23px, 100px, 100px);
+}
+#box2{
+  @include section-style(green, white, 23px, 100px, 100px);
+}
+#box3{
+  @include section-style(gray, white, 23px, 100px, 100px);
+}
+}
