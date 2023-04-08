@@ -1,0 +1,29 @@
+section {
+  width: 100px;
+}
+section #caixa1 {
+  background-color: rgb(255, 199, 199);
+  height: 100px;
+}
+section #caixa2 {
+  background-color: rgb(228, 92, 92);
+  height: 100px;
+}
+section #caixa3 {
+  background-color: rgb(255, 199, 199);
+  height: 100px;
+}
+section #caixa4 {
+  background-color: rgb(228, 92, 92);
+  height: 100px;
+}
+section button {
+  background-color: rgb(255, 199, 199);
+  cursor: pointer;
+  margin-top: 20px;
+}
+section button:hover {
+  background-color: rgb(228, 92, 92);
+  transition: 0.5s;
+  color: white;
+}/*# sourceMappingURL=section.css.map */

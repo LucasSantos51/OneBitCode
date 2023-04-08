@@ -1,0 +1,40 @@
+$width-box: 100px;
+$heigth-box: 100px;
+$color-box: rgb(255, 199, 199);
+$color-boxout: rgb(228, 92, 92);
+
+// Section design
+
+section{
+  width: $width-box;
+  #caixa1{
+    background-color: $color-box;
+    height: $heigth-box;
+  }
+
+  #caixa2{
+    background-color: $color-boxout;
+    height: $heigth-box;
+  }
+  #caixa3{
+    background-color: $color-box;
+    height: $heigth-box;
+  }
+  #caixa4{
+    background-color: $color-boxout;
+    height: $heigth-box;
+  }
+  button{
+    background-color: $color-box;
+    
+    cursor: pointer;
+    margin-top: 20px;
+
+  &:hover{
+      background-color: $color-boxout;
+      transition: 0.5s;
+      color: white;
+    }
+  }
+
+}
