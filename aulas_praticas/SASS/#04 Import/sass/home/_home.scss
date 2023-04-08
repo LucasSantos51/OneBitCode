@@ -1,0 +1,24 @@
+section {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 23px;
+  color: white;
+  #box1 {
+    background-color: $primary-color;
+    width: 100px;
+    height: 100px;
+  }
+  #box2 {
+    background-color: $secundary-color;
+    width: 100px;
+    height: 100px;
+  }
+  #box3 {
+    background-color: $terciary-color;
+    width: 100px;
+    height: 100px;
+  }
+  #btn {
+    background-color: $btn-color;
+    color: white;
+  }
+}
