@@ -1,0 +1,19 @@
+.btn, .btn4 {
+  width: 150px;
+  height: 30px;
+  display: block;
+  margin: 15px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.btn.btn1, .btn4 {
+  background-color: rgb(165, 253, 165);
+}
+.btn.btn2, .btn2.btn4 {
+  background-color: orangered;
+  color: white;
+}
+.btn.btn3, .btn3.btn4 {
+  background-color: orange;
+  color: white;
+}/*# sourceMappingURL=btn.css.map */
