@@ -1,0 +1,17 @@
+@import "Mixin-config/condicionais";
+
+body{
+  @include cond(azul) 
+}
+
+.box{
+  width: 200px;
+  height: 200px;
+
+}
+#box1{
+  @include cond(verde)
+}
+#box2{
+  @include cond(none)
+}

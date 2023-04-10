@@ -1,0 +1,23 @@
+body {
+  background-color: black;
+  color: lightblue;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+}
+
+#box1 {
+  background-color: orangered;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin: 10px;
+}
+
+#box2 {
+  background-color: white;
+  color: black;
+  text-align: center;
+  margin: 10px;
+}/*# sourceMappingURL=home.css.map */

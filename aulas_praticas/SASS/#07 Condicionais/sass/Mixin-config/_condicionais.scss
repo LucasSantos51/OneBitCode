@@ -1,0 +1,17 @@
+@mixin cond ($color){
+  @if $color == azul{
+    background-color: black;
+    color: lightblue;
+  }
+  @else if $color == verde{
+    background-color: orangered;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 10px;
+  } @else{
+    background-color: white;
+    color: black;
+    text-align: center;
+    margin: 10px;
+  }
+}
