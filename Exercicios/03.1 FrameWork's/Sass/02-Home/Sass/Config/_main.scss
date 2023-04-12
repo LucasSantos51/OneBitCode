@@ -1,0 +1,25 @@
+@mixin text($font-size, $text-aling){
+  font-size: $font-size;
+  text-align: $text-aling;
+}
+
+main{
+  max-width: 80vw;
+  margin: 0 auto;
+  
+
+  h1{
+    @include text(30px, center);
+    margin: 20px 0px 10px 0px;
+  }
+
+  h2{
+    @include text(22px, center);
+
+  }
+  p{
+    @include text(18px, left);
+    text-indent: justify;
+    margin: 10px;
+  }
+}
