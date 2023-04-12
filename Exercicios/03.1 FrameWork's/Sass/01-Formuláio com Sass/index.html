@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pb-bt">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Sass/Body.css">
+</head>
+<body>
+  <form class="form" action="index.html">
+    <fieldset>
+      <legend>Formulário</legend>
+      <div class="organizeItens">
+        <p class="text"><label for="nome">Nome</label></p>
+        <input type="text" id="nome" required placeholder="Italo Silva Lima" maxlength="70">
+
+        <p class="text"><label for="email">Email</label></p>
+        <input type="email" id="email" required placeholder="Exemplo@Exemplo.com">
+        
+        <p class="text"><label for="idade">Idade</label></p>
+        <input type="text" id="idade" required placeholder="Ex: 18" maxlength="10">
+
+        <p class="text"><label for="areaAtuação">Qual opção descreve melhor sua função atual?</label></p>
+        <select name="areaAtuação" id="areaAtuação">
+          <option name="areaAtuação" value="estudante">Estudante</option>
+          <option name="areaAtuação" value="programador">Programador</option>
+          <option name="areaAtuação" value="nenhum">Nenhum dos acima</option>
+        </select>
+          
+        
+        <p class="text"><label for="option">Você é um programador?</label></p>
+        <p class="text"> <input type="radio" name="option" id="Sim"> Sim</p>
+        <p class="text"><input type="radio" name="option" id="Não"> Não</p>
+
+
+        <p class="text">Em qual área está atuando?</p>
+        <p><input type="checkbox" name="frontend" id="frontend"> Frontend</p>
+        <p><input type="checkbox" name="backend" id="backend"> Backend</p>
+        <p><input type="checkbox" name="fullstack" id="fullstack"> Full Stack</p>
+        <p class="text">Conte-me sobre a sua rotina como programador</p>
+        <input type="text" name="sobre" id="sobre" maxlength="400">
+        <input id="btn" type="submit" value="Enviar formulário">
+      </div>
+    </fieldset>
+  </form>
+</body>
+</html>
