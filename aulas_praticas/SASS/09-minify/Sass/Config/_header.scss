@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $primary-color;
+  height: 80px;
+  .navimg {
+    width: 70px;
+    height: 70px;
+    margin: 0px 20px;
+  }
+  .navbar {
+    a {
+      margin: 0px 20px;
+      padding: 5px;
+      text-decoration: none;
+      color: $secundary-color;
+      border-bottom: 1px solid transparent;
+
+      &:hover {
+        color: $terciary-color;
+        border-color: $quarty-color;
+      }
+    }
+  }
+}
